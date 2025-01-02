@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ 
+body {
+    background-color: blue;
+    font-family: "Diphylleia", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.choose {
+    text-align: center;
+}
+
+.choice {
+    font-size: 100px;
+    color: #FFFFFF;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.choice:hover {
+    color: aqua;
+    cursor: pointer;
+}
+
+.Choices{
+    display:inline-block;   
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    width: 200px;
+    height: 100px;
+    background-color: yellow;
+    border-style: solid;
+    border-color: yellow;
+    border-radius: 10px;
+    transition: 0.3s;
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+
+button:hover {
+    background-color: aqua;
+    border-color: aqua;
+    cursor: pointer;
+}
+
+p {
+    font-size: 30px;
+}
+
+.to {
+    color: #FFFFFF;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.message {
+    color: #FFFFFF;
+    text-align: justify;
+    margin: 10px 75px
+}
+
+.from {
+    color: #FFFFFF;
+    margin-left: 600px;
+}
+
+.photo {
+    margin: 50px 0px;
+    margin-left: 140px;
+    width: 700px;
+    height: auto;
+}
+
+.Bea {
+    width: 100%;
+    height: auto;
+}
